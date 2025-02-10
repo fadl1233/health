@@ -1,0 +1,2551 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ورقة1 (health)' inline='true' name='federated.0bhpvz81yv5i2r17ocoen1pwh2yq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='health' name='excel-direct.147nsy60kd8tmx183kl7y1sdr8ur'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/AL BASHA/Desktop/max/health/health.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.147nsy60kd8tmx183kl7y1sdr8ur' name='ورقة1' table='[ورقة1$]' type='table'>
+          <columns gridOrigin='A1:BM13:no:A1:BM13:0' header='yes' outcome='2'>
+            <column datatype='string' name='health' ordinal='0' />
+            <column datatype='real' name='1960' ordinal='1' />
+            <column datatype='real' name='1961' ordinal='2' />
+            <column datatype='real' name='1962' ordinal='3' />
+            <column datatype='real' name='1963' ordinal='4' />
+            <column datatype='real' name='1964' ordinal='5' />
+            <column datatype='real' name='1965' ordinal='6' />
+            <column datatype='real' name='1966' ordinal='7' />
+            <column datatype='real' name='1967' ordinal='8' />
+            <column datatype='real' name='1968' ordinal='9' />
+            <column datatype='integer' name='1969' ordinal='10' />
+            <column datatype='real' name='1970' ordinal='11' />
+            <column datatype='real' name='1971' ordinal='12' />
+            <column datatype='real' name='1972' ordinal='13' />
+            <column datatype='real' name='1973' ordinal='14' />
+            <column datatype='real' name='1974' ordinal='15' />
+            <column datatype='real' name='1975' ordinal='16' />
+            <column datatype='real' name='1976' ordinal='17' />
+            <column datatype='real' name='1977' ordinal='18' />
+            <column datatype='real' name='1978' ordinal='19' />
+            <column datatype='real' name='1979' ordinal='20' />
+            <column datatype='real' name='1980' ordinal='21' />
+            <column datatype='real' name='1981' ordinal='22' />
+            <column datatype='real' name='1982' ordinal='23' />
+            <column datatype='real' name='1983' ordinal='24' />
+            <column datatype='real' name='1984' ordinal='25' />
+            <column datatype='real' name='1985' ordinal='26' />
+            <column datatype='real' name='1986' ordinal='27' />
+            <column datatype='real' name='1987' ordinal='28' />
+            <column datatype='real' name='1988' ordinal='29' />
+            <column datatype='real' name='1989' ordinal='30' />
+            <column datatype='real' name='1990' ordinal='31' />
+            <column datatype='real' name='1991' ordinal='32' />
+            <column datatype='real' name='1992' ordinal='33' />
+            <column datatype='real' name='1993' ordinal='34' />
+            <column datatype='real' name='1994' ordinal='35' />
+            <column datatype='real' name='1995' ordinal='36' />
+            <column datatype='real' name='1996' ordinal='37' />
+            <column datatype='real' name='1997' ordinal='38' />
+            <column datatype='real' name='1998' ordinal='39' />
+            <column datatype='real' name='1999' ordinal='40' />
+            <column datatype='real' name='2000' ordinal='41' />
+            <column datatype='real' name='2001' ordinal='42' />
+            <column datatype='real' name='2002' ordinal='43' />
+            <column datatype='real' name='2003' ordinal='44' />
+            <column datatype='real' name='2004' ordinal='45' />
+            <column datatype='real' name='2005' ordinal='46' />
+            <column datatype='real' name='2006' ordinal='47' />
+            <column datatype='real' name='2007' ordinal='48' />
+            <column datatype='real' name='2008' ordinal='49' />
+            <column datatype='real' name='2009' ordinal='50' />
+            <column datatype='real' name='2010' ordinal='51' />
+            <column datatype='real' name='2011' ordinal='52' />
+            <column datatype='real' name='2012' ordinal='53' />
+            <column datatype='real' name='2013' ordinal='54' />
+            <column datatype='real' name='2014' ordinal='55' />
+            <column datatype='real' name='2015' ordinal='56' />
+            <column datatype='real' name='2016' ordinal='57' />
+            <column datatype='real' name='2017' ordinal='58' />
+            <column datatype='real' name='2018' ordinal='59' />
+            <column datatype='real' name='2019' ordinal='60' />
+            <column datatype='real' name='2020' ordinal='61' />
+            <column datatype='real' name='2021' ordinal='62' />
+            <column datatype='real' name='2022' ordinal='63' />
+            <column datatype='integer' name='2023' ordinal='64' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.147nsy60kd8tmx183kl7y1sdr8ur' name='ورقة1' table='[ورقة1$]' type='table'>
+          <columns gridOrigin='A1:BM13:no:A1:BM13:0' header='yes' outcome='2'>
+            <column datatype='string' name='health' ordinal='0' />
+            <column datatype='real' name='1960' ordinal='1' />
+            <column datatype='real' name='1961' ordinal='2' />
+            <column datatype='real' name='1962' ordinal='3' />
+            <column datatype='real' name='1963' ordinal='4' />
+            <column datatype='real' name='1964' ordinal='5' />
+            <column datatype='real' name='1965' ordinal='6' />
+            <column datatype='real' name='1966' ordinal='7' />
+            <column datatype='real' name='1967' ordinal='8' />
+            <column datatype='real' name='1968' ordinal='9' />
+            <column datatype='integer' name='1969' ordinal='10' />
+            <column datatype='real' name='1970' ordinal='11' />
+            <column datatype='real' name='1971' ordinal='12' />
+            <column datatype='real' name='1972' ordinal='13' />
+            <column datatype='real' name='1973' ordinal='14' />
+            <column datatype='real' name='1974' ordinal='15' />
+            <column datatype='real' name='1975' ordinal='16' />
+            <column datatype='real' name='1976' ordinal='17' />
+            <column datatype='real' name='1977' ordinal='18' />
+            <column datatype='real' name='1978' ordinal='19' />
+            <column datatype='real' name='1979' ordinal='20' />
+            <column datatype='real' name='1980' ordinal='21' />
+            <column datatype='real' name='1981' ordinal='22' />
+            <column datatype='real' name='1982' ordinal='23' />
+            <column datatype='real' name='1983' ordinal='24' />
+            <column datatype='real' name='1984' ordinal='25' />
+            <column datatype='real' name='1985' ordinal='26' />
+            <column datatype='real' name='1986' ordinal='27' />
+            <column datatype='real' name='1987' ordinal='28' />
+            <column datatype='real' name='1988' ordinal='29' />
+            <column datatype='real' name='1989' ordinal='30' />
+            <column datatype='real' name='1990' ordinal='31' />
+            <column datatype='real' name='1991' ordinal='32' />
+            <column datatype='real' name='1992' ordinal='33' />
+            <column datatype='real' name='1993' ordinal='34' />
+            <column datatype='real' name='1994' ordinal='35' />
+            <column datatype='real' name='1995' ordinal='36' />
+            <column datatype='real' name='1996' ordinal='37' />
+            <column datatype='real' name='1997' ordinal='38' />
+            <column datatype='real' name='1998' ordinal='39' />
+            <column datatype='real' name='1999' ordinal='40' />
+            <column datatype='real' name='2000' ordinal='41' />
+            <column datatype='real' name='2001' ordinal='42' />
+            <column datatype='real' name='2002' ordinal='43' />
+            <column datatype='real' name='2003' ordinal='44' />
+            <column datatype='real' name='2004' ordinal='45' />
+            <column datatype='real' name='2005' ordinal='46' />
+            <column datatype='real' name='2006' ordinal='47' />
+            <column datatype='real' name='2007' ordinal='48' />
+            <column datatype='real' name='2008' ordinal='49' />
+            <column datatype='real' name='2009' ordinal='50' />
+            <column datatype='real' name='2010' ordinal='51' />
+            <column datatype='real' name='2011' ordinal='52' />
+            <column datatype='real' name='2012' ordinal='53' />
+            <column datatype='real' name='2013' ordinal='54' />
+            <column datatype='real' name='2014' ordinal='55' />
+            <column datatype='real' name='2015' ordinal='56' />
+            <column datatype='real' name='2016' ordinal='57' />
+            <column datatype='real' name='2017' ordinal='58' />
+            <column datatype='real' name='2018' ordinal='59' />
+            <column datatype='real' name='2019' ordinal='60' />
+            <column datatype='real' name='2020' ordinal='61' />
+            <column datatype='real' name='2021' ordinal='62' />
+            <column datatype='real' name='2022' ordinal='63' />
+            <column datatype='integer' name='2023' ordinal='64' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BM13:no:A1:BM13:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>health</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[health]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>health</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1960</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1960]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1960</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1961</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1961]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1961</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1962</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1962]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1962</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1963</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1963]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1963</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1964</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1964]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1964</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1965</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1965]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1965</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1966</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1966]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1966</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1967</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1967]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1967</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1968</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1968]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1968</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1969</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1969]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1969</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1970</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1970]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1970</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1971</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1971]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1971</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1972</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1972]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1972</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1973</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1973]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1973</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1974</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1974]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1974</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1975</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1975]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1975</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1976</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1976]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1976</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1977</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1977]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1977</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1978</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1978]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1978</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1979</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1979]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1979</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1980</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1980]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1980</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1981</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1981]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1981</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1982</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1982]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1982</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1983</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1983]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1983</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1984</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1984]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1984</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1985</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1985]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1985</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1986</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1986]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1986</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1987</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1987]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1987</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1988</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1988]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1988</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1989</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1989]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1989</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1990</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1990]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1990</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1991</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1991]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1991</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1992</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1992]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1992</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1993</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1993]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1993</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1994</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1994]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1994</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1995</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1995]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1995</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1996</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1996]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1996</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1997</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1997]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1997</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1998</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1998]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1998</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1999</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1999]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>1999</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2000</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2000]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2000</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2001</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2001]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2001</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2002</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2002]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2002</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2003</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2003]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2003</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2004</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2004]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2004</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2005]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2005</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2006]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2006</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2007]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2007</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2008]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2008</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2009]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2009</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2010]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2010</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2011]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2011</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2012]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2012</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2013]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2013</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2014]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2014</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2015]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2015</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2016]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2016</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2017]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2017</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2018]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2018</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2019]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2019</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2020]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2020</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2021]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2021</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2022</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2022]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2022</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2023</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2023]</local-name>
+            <parent-name>[ورقة1]</parent-name>
+            <remote-alias>2023</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='ورقة1' datatype='table' name='[__tableau_internal_object_id__].[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]' role='measure' type='quantitative' />
+      <column caption='Health' datatype='string' name='[health]' role='dimension' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/ALBASH~1/AppData/Local/Temp/TableauTemp/#TableauTemp_0u7vkvh1b0lc131f0fi5w1ukg5fk.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/09/2025 08:01:27 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>health</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[health]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>health</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ورقة1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RGB_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1960</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1960]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1960</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1961</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1961]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1961</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1962</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1962]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1962</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1963</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1963]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1963</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1964</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1964]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1964</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1965</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1965]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1965</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1966</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1966]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1966</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1967</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1967]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1967</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1968</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1968]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1968</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1969</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[1969]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1969</remote-alias>
+              <ordinal>10</ordinal>
+              <family>ورقة1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1970</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1970]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1970</remote-alias>
+              <ordinal>11</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1971</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1971]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1971</remote-alias>
+              <ordinal>12</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1972</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1972]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1972</remote-alias>
+              <ordinal>13</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1973</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1973]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1973</remote-alias>
+              <ordinal>14</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1974</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1974]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1974</remote-alias>
+              <ordinal>15</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1975</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1975]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1975</remote-alias>
+              <ordinal>16</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1976</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1976]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1976</remote-alias>
+              <ordinal>17</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1977</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1977]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1977</remote-alias>
+              <ordinal>18</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1978</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1978]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1978</remote-alias>
+              <ordinal>19</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1979</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1979]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1979</remote-alias>
+              <ordinal>20</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1980</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1980]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1980</remote-alias>
+              <ordinal>21</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1981</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1981]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1981</remote-alias>
+              <ordinal>22</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1982</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1982]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1982</remote-alias>
+              <ordinal>23</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1983</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1983]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1983</remote-alias>
+              <ordinal>24</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1984</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1984]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1984</remote-alias>
+              <ordinal>25</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1985</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1985]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1985</remote-alias>
+              <ordinal>26</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1986</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1986]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1986</remote-alias>
+              <ordinal>27</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1987</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1987]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1987</remote-alias>
+              <ordinal>28</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1988</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1988]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1988</remote-alias>
+              <ordinal>29</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1989</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1989]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1989</remote-alias>
+              <ordinal>30</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1990</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1990]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1990</remote-alias>
+              <ordinal>31</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1991</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1991]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1991</remote-alias>
+              <ordinal>32</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1992</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1992]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1992</remote-alias>
+              <ordinal>33</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1993</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1993]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1993</remote-alias>
+              <ordinal>34</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1994</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1994]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1994</remote-alias>
+              <ordinal>35</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1995</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1995]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1995</remote-alias>
+              <ordinal>36</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1996</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1996]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1996</remote-alias>
+              <ordinal>37</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1997</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1997]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1997</remote-alias>
+              <ordinal>38</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1998</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1998]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1998</remote-alias>
+              <ordinal>39</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1999</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1999]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1999</remote-alias>
+              <ordinal>40</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2000</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2000]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2000</remote-alias>
+              <ordinal>41</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2001</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2001]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2001</remote-alias>
+              <ordinal>42</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2002</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2002]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2002</remote-alias>
+              <ordinal>43</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2003</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2003]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2003</remote-alias>
+              <ordinal>44</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2004</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2004]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2004</remote-alias>
+              <ordinal>45</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2005</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2005]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2005</remote-alias>
+              <ordinal>46</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2006</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2006]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2006</remote-alias>
+              <ordinal>47</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2007</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2007]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2007</remote-alias>
+              <ordinal>48</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2008</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2008]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2008</remote-alias>
+              <ordinal>49</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2009</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2009]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2009</remote-alias>
+              <ordinal>50</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2010</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2010]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2010</remote-alias>
+              <ordinal>51</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2011</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2011]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2011</remote-alias>
+              <ordinal>52</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2012</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2012]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2012</remote-alias>
+              <ordinal>53</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2013</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2013]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2013</remote-alias>
+              <ordinal>54</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2014</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2014]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2014</remote-alias>
+              <ordinal>55</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2015</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2015]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2015</remote-alias>
+              <ordinal>56</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2016</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2016]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2016</remote-alias>
+              <ordinal>57</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2017</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2017]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2017</remote-alias>
+              <ordinal>58</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2018</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2018]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2018</remote-alias>
+              <ordinal>59</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2019</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2019]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2019</remote-alias>
+              <ordinal>60</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2020</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2020]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2020</remote-alias>
+              <ordinal>61</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2021</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2021]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2021</remote-alias>
+              <ordinal>62</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2022</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[2022]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2022</remote-alias>
+              <ordinal>63</ordinal>
+              <family>ورقة1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2023</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[2023]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2023</remote-alias>
+              <ordinal>64</ordinal>
+              <family>ورقة1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ورقة1_7F1A990AD16447A68AD53B71B3CB2273]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ورقة1' id='ورقة1_7F1A990AD16447A68AD53B71B3CB2273'>
+            <properties context=''>
+              <relation connection='excel-direct.147nsy60kd8tmx183kl7y1sdr8ur' name='ورقة1' table='[ورقة1$]' type='table'>
+                <columns gridOrigin='A1:BM13:no:A1:BM13:0' header='yes' outcome='2'>
+                  <column datatype='string' name='health' ordinal='0' />
+                  <column datatype='real' name='1960' ordinal='1' />
+                  <column datatype='real' name='1961' ordinal='2' />
+                  <column datatype='real' name='1962' ordinal='3' />
+                  <column datatype='real' name='1963' ordinal='4' />
+                  <column datatype='real' name='1964' ordinal='5' />
+                  <column datatype='real' name='1965' ordinal='6' />
+                  <column datatype='real' name='1966' ordinal='7' />
+                  <column datatype='real' name='1967' ordinal='8' />
+                  <column datatype='real' name='1968' ordinal='9' />
+                  <column datatype='integer' name='1969' ordinal='10' />
+                  <column datatype='real' name='1970' ordinal='11' />
+                  <column datatype='real' name='1971' ordinal='12' />
+                  <column datatype='real' name='1972' ordinal='13' />
+                  <column datatype='real' name='1973' ordinal='14' />
+                  <column datatype='real' name='1974' ordinal='15' />
+                  <column datatype='real' name='1975' ordinal='16' />
+                  <column datatype='real' name='1976' ordinal='17' />
+                  <column datatype='real' name='1977' ordinal='18' />
+                  <column datatype='real' name='1978' ordinal='19' />
+                  <column datatype='real' name='1979' ordinal='20' />
+                  <column datatype='real' name='1980' ordinal='21' />
+                  <column datatype='real' name='1981' ordinal='22' />
+                  <column datatype='real' name='1982' ordinal='23' />
+                  <column datatype='real' name='1983' ordinal='24' />
+                  <column datatype='real' name='1984' ordinal='25' />
+                  <column datatype='real' name='1985' ordinal='26' />
+                  <column datatype='real' name='1986' ordinal='27' />
+                  <column datatype='real' name='1987' ordinal='28' />
+                  <column datatype='real' name='1988' ordinal='29' />
+                  <column datatype='real' name='1989' ordinal='30' />
+                  <column datatype='real' name='1990' ordinal='31' />
+                  <column datatype='real' name='1991' ordinal='32' />
+                  <column datatype='real' name='1992' ordinal='33' />
+                  <column datatype='real' name='1993' ordinal='34' />
+                  <column datatype='real' name='1994' ordinal='35' />
+                  <column datatype='real' name='1995' ordinal='36' />
+                  <column datatype='real' name='1996' ordinal='37' />
+                  <column datatype='real' name='1997' ordinal='38' />
+                  <column datatype='real' name='1998' ordinal='39' />
+                  <column datatype='real' name='1999' ordinal='40' />
+                  <column datatype='real' name='2000' ordinal='41' />
+                  <column datatype='real' name='2001' ordinal='42' />
+                  <column datatype='real' name='2002' ordinal='43' />
+                  <column datatype='real' name='2003' ordinal='44' />
+                  <column datatype='real' name='2004' ordinal='45' />
+                  <column datatype='real' name='2005' ordinal='46' />
+                  <column datatype='real' name='2006' ordinal='47' />
+                  <column datatype='real' name='2007' ordinal='48' />
+                  <column datatype='real' name='2008' ordinal='49' />
+                  <column datatype='real' name='2009' ordinal='50' />
+                  <column datatype='real' name='2010' ordinal='51' />
+                  <column datatype='real' name='2011' ordinal='52' />
+                  <column datatype='real' name='2012' ordinal='53' />
+                  <column datatype='real' name='2013' ordinal='54' />
+                  <column datatype='real' name='2014' ordinal='55' />
+                  <column datatype='real' name='2015' ordinal='56' />
+                  <column datatype='real' name='2016' ordinal='57' />
+                  <column datatype='real' name='2017' ordinal='58' />
+                  <column datatype='real' name='2018' ordinal='59' />
+                  <column datatype='real' name='2019' ordinal='60' />
+                  <column datatype='real' name='2020' ordinal='61' />
+                  <column datatype='real' name='2021' ordinal='62' />
+                  <column datatype='real' name='2022' ordinal='63' />
+                  <column datatype='integer' name='2023' ordinal='64' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ورقة1 (health)' name='federated.0bhpvz81yv5i2r17ocoen1pwh2yq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0bhpvz81yv5i2r17ocoen1pwh2yq'>
+            <column datatype='real' name='[1960]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1961]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1962]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1963]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1964]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1965]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1966]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1967]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1968]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[1969]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1970]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1971]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1972]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1973]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1974]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1975]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1976]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1977]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1978]' role='measure' type='quantitative' />
+            <column datatype='real' name='[1979]' role='measure' type='quantitative' />
+            <column datatype='real' name='[2007]' role='measure' type='quantitative' />
+            <column caption='Health' datatype='string' name='[health]' role='dimension' type='nominal' />
+            <column-instance column='[health]' derivation='None' name='[none:health:nk]' pivot='key' type='nominal' />
+            <column-instance column='[1960]' derivation='Sum' name='[sum:1960:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1961]' derivation='Sum' name='[sum:1961:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1962]' derivation='Sum' name='[sum:1962:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1963]' derivation='Sum' name='[sum:1963:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1964]' derivation='Sum' name='[sum:1964:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1965]' derivation='Sum' name='[sum:1965:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1966]' derivation='Sum' name='[sum:1966:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1967]' derivation='Sum' name='[sum:1967:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1968]' derivation='Sum' name='[sum:1968:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1969]' derivation='Sum' name='[sum:1969:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1970]' derivation='Sum' name='[sum:1970:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1971]' derivation='Sum' name='[sum:1971:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1972]' derivation='Sum' name='[sum:1972:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1973]' derivation='Sum' name='[sum:1973:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1974]' derivation='Sum' name='[sum:1974:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1975]' derivation='Sum' name='[sum:1975:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1976]' derivation='Sum' name='[sum:1976:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1977]' derivation='Sum' name='[sum:1977:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1978]' derivation='Sum' name='[sum:1978:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[1979]' derivation='Sum' name='[sum:1979:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2007]' derivation='Sum' name='[sum:2007:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1960:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1961:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1962:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1963:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1964:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1965:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1966:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1967:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1968:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1969:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1970:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1971:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1972:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1973:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1974:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1975:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1976:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1977:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1978:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:1979:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[sum:2007:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[none:health:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;أسِرَّة المستشفيات (لكل 1000 شخص)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;أطباء (لكل 1000 شخص)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;الأطفال المصابون بالحمى الذين يتلقون عقاقير مضادة للملاريا (\% لكل الأطفال دون سن 5 سنوات المصابين بالحمى)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;التحصين للوقاية من الحصبة (نسبة الأطفال في الشريحة العمرية 12-23 شهراً)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;تحصين، لقاح ثلاثي (\% الأطفال في الشريحة العمرية 12-23 شهراً)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;تغطية العلاج المضاد للفيروسات الرجعية (\% للأشخاص المصابين إصابة متقدمة بفيروس الإيدز)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;عمليات الولادة التي تتم بإشراف عاملين صحيين مهرة (\% من الإجمالي)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;معدل انتشار السل (لكل 100 ألف شخص)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;معدل انتشار فيروس الإيدز، إناث (\% الشريحة العمرية 15-24 عاما)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;معدل انتشار فيروس الإيدز، ذكور (\% الشريحة العمرية 15-24 عاما)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;معدل وفيات الأطفال دون 5 سنوات (لكل 1000 مولود حي)&quot;' />
+              <groupfilter function='member' level='[none:health:nk]' member='&quot;ممرضات وقابلات (لكل 1000 شخص)&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[none:health:nk]</column>
+            <column>[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[Multiple Values]</rows>
+        <cols>([federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[none:health:nk] / [federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{14D3D5FD-EF24-4B13-B7B6-E75AAB950517}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[:Measure Names]</field>
+            <field>[federated.0bhpvz81yv5i2r17ocoen1pwh2yq].[none:health:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0EEDCED4-5579-48BE-83C6-37D57FE53273}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
